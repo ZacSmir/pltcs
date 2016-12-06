@@ -11,7 +11,7 @@ $.ajax({
 
 
 var cars = [object.firstname]
-$("#thisone").html(cars)
+$("#thisone").html(object.firstname)
 
 //var fill = d3.scale.category20();
 
