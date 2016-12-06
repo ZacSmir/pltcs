@@ -4,7 +4,8 @@ $.ajax({
   success: function(data) {    
     data.objects.forEach(function(object) {
       console.log(object.firstname)
-      var array 
+      var cars = [object.firstname]
+      
     })
   }
 })
