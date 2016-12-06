@@ -4,11 +4,14 @@ $.ajax({
   success: function(data) {    
     data.objects.forEach(function(object) {
       console.log(object.firstname)
-      var cars = [object.firstname]
-      
+     
     })
   }
 })
+
+
+var cars = [object.firstname]
+$("#thisone").html(cars)
 
 //var fill = d3.scale.category20();
 
