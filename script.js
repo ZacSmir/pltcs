@@ -4,16 +4,16 @@ $.ajax({
   success: function(data) {    
     var arr = []
     data.objects.forEach(function(object) {
-      arr.push(object.firstname)
+      arr.push(object.firstname + " ")
       console.log(object.firstname)
-     
+      $("#thisone").html(arr)
     })
   }
 })
 
 
-var cars = [object.firstname]
-$("#thisone").html(object.firstname)
+
+  
 
 //var fill = d3.scale.category20();
 
